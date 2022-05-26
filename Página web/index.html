@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,300italic,700' rel='stylesheet'
+		type='text/css'>
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="icon" type="image/icon" href="/img/pescado.ico"/>
+	<title>Pesca Ilegal</title>
+</head>
+
+<body>
+	<header>
+		<div class="contenedor">
+			<nav class="menu">
+				<a href="#" id="btn-acerca-de">
+					Pesca Ilegal
+				</a>
+				<a href="#" id="btn-menu">
+					Especie Decomisada
+				</a>
+				<a href="#" id="btn-galeria">
+					Especies
+				</a>
+				<a href="#" id="btn-ubicacion">
+					Estadísticas
+				</a>
+			</nav>
+
+			<div class="textos">
+				<h1 class="nombre">Pesca Ilegal en México</h1>
+				<h3><b>Combate la Pesca Ilegal</b></h3>
+			</div>
+		</div>
+	</header>
+
+	<section class="main">
+		<section class="acerca-de" id="acerca-de">
+			<div class="contenedor">
+				<div class="foto">
+					<img src="img/pescailegal2.jpg" alt="">
+				</div>
+				<article>
+					<h3>¿Qué es la pesca ilegal, pesca no declarada y no reglamentada?</h3>
+					<p>Puede entenderse como una serie de actividades ilícitas que van desde pescar sin permiso,
+						fuera de temporada, captura de especies prohibidas, utilizar artes de pesca proscritas,
+						no respetar las cuotas de captura, no declarar o dar información falsa sobre los volúmenes
+						y las especies capturadas, entre otras.</p>
+				</article>
+			</div>
+		</section>
+
+		<section class="menu">
+			<div class="contenedor">
+				<h3 class="titulo" id="platillos">Especie Decomisada</h3>
+				<div class="contenedor-menu">
+					<div class="contenedor-menu2">
+						<article>
+							<p class="categoria">Especie</p>
+							<div class="platillo">
+								<p class="nombre">Lobina</p>
+								<p class="precio">202</p>
+								<p class="descripcion"></p>
+							</div>
+							<div class="platillo">
+								<p class="nombre">Camaron</p>
+								<p class="precio">89</p>
+								<p class="descripcion"></p>
+							</div>
+							<div class="platillo">
+								<p class="nombre">Sardina</p>
+								<p class="precio">37</p>
+								<p class="descripcion"></p>
+							</div>
+							<div class="platillo">
+								<p class="nombre">Pulpo</p>
+								<p class="precio">35</p>
+								<p class="descripcion"></p>
+							</div>
+						</article>
+
+						<article>
+							<p class="categoria">Instrumento</p>
+							<div class="platillo">
+								<p class="nombre">Embarcacion menor</p>
+								<p class="precio">348</p>
+								<p class="descripcion"></p>
+							</div>
+							<div class="platillo">
+								<p class="nombre">Arte de pesca</p>
+								<p class="precio">210</p>
+								<p class="descripcion"></p>
+							</div>
+							<div class="platillo">
+								<p class="nombre">Otros</p>
+								<p class="precio">163</p>
+								<p class="descripcion"></p>
+							</div>
+							<div class="platillo">
+								<p class="nombre">Embarcacion mayor</p>
+								<p class="precio">78</p>
+								<p class="descripcion"></p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="galeria" id="galeria">
+			<div class="foto">
+				<img src="img/img1.jpg" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/img2.jpg" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/corals-g054303d12_1920.jpg" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/img4.jpg" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/img5.jpg" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/img6.jpg" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/img7.jpg" alt="">
+			</div>
+			<div class="foto">
+				<img src="img/img8.jpg" alt="">
+			</div>
+		</section>
+
+		<section class="ubicacion" id="ubicacion">
+			<div class="contenedor">
+				<h3 class="titulo">Estadísticas</h3>
+			</div>
+
+			<div class="contenedor__graficas">
+				<canvas id="chartEspeciesRecuperadas" style="width:100%;max-width:700px"></canvas>
+				<canvas id="chartCrimenes" style="width:100%;max-width:1200px"></canvas>
+				<canvas id="chart_medio_ambiente" style="width:100%;max-width:1200px"></canvas>
+			</div>
+
+		</section>
+
+
+		<footer>
+			<div class="contenedor">
+				<div class="copyright">
+					<p>Copyright La obra negra</p>
+				</div>
+			</div>
+		</footer>
+
+		<script src="js/jquery-1.12.3.min.js"></script>
+		<script src="js/parallax.js"></script>
+		<script src="js/efectos.js"></script>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.1/chart.min.js"></script>
+<script src="./js/graficas.js">
+</script>
+</body>
+
+</html>
